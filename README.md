@@ -1,4 +1,4 @@
-﻿# STSAnno - a program for semantic textual similarity annotation
+# STSAnno - a program for semantic textual similarity annotation
 STSAnno is a small Java program for offline semantic textual similarity (STS) annotation.
 It allows the user/annotator to assign semantic similarity scores to a corpus of text/sentence pairs.
 
