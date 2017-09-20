@@ -1,5 +1,5 @@
-# STSAnno - a program for semantic textual similarity annotation
-STSAnno is a small Java program for offline semantic textual similarity (STS) annotation.
+# STSAnno - a tool for semantic textual similarity annotation
+STSAnno is a tool written in Java for offline semantic textual similarity (STS) annotation.
 It allows the user/annotator to assign semantic similarity scores to a corpus of text/sentence pairs.
 
 ## File format
@@ -9,7 +9,7 @@ The expected format of the corpus file is one line per text/sentence pair.
 Texts in a pair should be tab-separated.
 The annotated corpus generated as program output has a similar tab-separated structure, with three columns - the first one contains the similarity score, while the second and the third contain the texts in a pair.
 
-## Program interface
+## Tool interface
 The annotator can view in parallel two short texts whose level of semantic similarity should be evaluated.
 A similarity score in the range 0-5 can then be assigned to the text pair.
 A special symbol can also be used to mark the pair in order to temporarily skip it, which can be useful when faced with difficult examples.
