@@ -4,8 +4,8 @@ It allows the user/annotator to assign semantic similarity scores to a corpus of
 
 ## File format
 On startup, the program asks the user to select the input file.
-The expected input is a UTF-8-encoded TXT file which contains the STS corpus to be annotated.
-The expected format of the corpus file is: one line per text/sentence pair.
+The expected input is a UTF-8-encoded TXT file that contains the STS corpus to be annotated.
+The expected format of the corpus file is one line per text/sentence pair.
 Texts in a pair should be tab-separated.
 The annotated corpus generated as program output has a similar tab-separated structure, with three columns - the first one contains the similarity score, while the second and the third contain the texts in a pair.
 
@@ -16,7 +16,7 @@ A special symbol can also be used to mark the pair in order to temporarily skip 
 Existing scores and symbols can be erased or rewritten.
 In the top of the window the program displays progress info - the number of scored, unscored, and skipped text pairs.
 
-The user can annotate text pairs in the order in which they are contained in the corpus file, or in any other order by using the scroll pane which lists all the pairs from the corpus.
+The user can annotate text pairs in the order in which they are contained in the corpus file or in any other order by using the scroll pane that lists all the pairs from the corpus.
 It is also possible to jump directly to a given line within the corpus file, via the appropriate text field in the top of the window.
 The program is also capable of jumping automatically to the first unscored text pair after a score is assigned to the current pair.
 If this option is enabled and no unscored pairs remain, the program jumps to the first skipped pair.
@@ -40,7 +40,7 @@ TBA
 
 ## Additional Documentation
 All methods contain documentation and comments in English.
-If you have any questions about the program, please review the supplied javadoc documentation and the source code.
+If you have any questions about the program, please review the supplied [javadoc documentation](https://vukbatanovic.github.io/STSAnno/doc/index.html) and the source code.
 If no answer can be found, feel free to contact me at: vuk.batanovic / at / student.etf.bg.ac.rs
 
 ## License
