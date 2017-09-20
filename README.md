@@ -22,7 +22,7 @@ The program is also capable of jumping automatically to the first unscored text 
 If this option is enabled and no unscored pairs remain, the program jumps to the first skipped pair.
 If there are also no skipped pairs, the program selects the first pair in the corpus.
 
-## Saving an annotated corpus
+## Saving the annotations
 The output of the program is saved to the corpus file given to the program as input i.e. the input file is overwritten with (partially) annotated data.
 This allows the user to work with only one file throughout the annotation process.
 The corpus in its current annotation state can be saved to the file using the designated button.
@@ -30,7 +30,7 @@ In addition, the program automatically saves its output when the main window is 
 
 ## Running the program
 Aside from the source code in the repository, a runnable .jar file is also available for [download](https://github.com/vukbatanovic/STSAnno/releases/download/v1.0.0/STSAnno.jar).
-STSAnno can be started from a command line interface using the .jar file with the following command:
+STSAnno can be started from the command line interface using the .jar file with the following command:
 ```
 java -jar STSAnno.jar
 ```
