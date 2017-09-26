@@ -22,7 +22,7 @@ The program is also capable of jumping automatically to the first unscored text 
 If this option is enabled and no unscored pairs remain, the program jumps to the first skipped pair.
 If there are also no skipped pairs, the program selects the first pair in the corpus.
 
-Screenshot of STSAnno during [STS.news.sr](https://vukbatanovic.github.io/STS.news.sr/) annotation:
+Screenshot of STSAnno during the annotation of the [Serbian STS News Corpus](https://vukbatanovic.github.io/STS.news.sr/):
 ![STSAnno Screenshot](./doc/Screenshot.png)
 
 ## Saving the annotations
