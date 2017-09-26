@@ -6,6 +6,7 @@ import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
+import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -83,9 +84,9 @@ public class STSAnno extends JFrame {
     private boolean jumpToNext = false;
     
 	// GUI Dimensions
-	private Dimension windowDimension = new Dimension(750, 570);
-	private Dimension textAreaDimension = new Dimension(650, 100);
-	private Dimension scrollPaneDimension = new Dimension(650, 200);
+	private Dimension windowDimension = new Dimension(800, 585);
+	private Dimension textAreaDimension = new Dimension(750, 100);
+	private Dimension scrollPaneDimension = new Dimension(750, 200);
 	
 	// GUI Elements
     private JTextArea text1Area = new JTextArea ();
@@ -214,6 +215,8 @@ public class STSAnno extends JFrame {
         labelPanel.add(statisticsLabel);
         
         // TextArea settings
+        text1Area.setMargin(new Insets(3,5,3,5));;
+        text2Area.setMargin(new Insets(3,5,3,5));;
         text1Area.setEditable(false);
         text2Area.setEditable(false);
         text1Area.setLineWrap(true);

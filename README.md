@@ -22,6 +22,9 @@ The program is also capable of jumping automatically to the first unscored text 
 If this option is enabled and no unscored pairs remain, the program jumps to the first skipped pair.
 If there are also no skipped pairs, the program selects the first pair in the corpus.
 
+Screenshot of STSAnno during [STS.news.sr](https://vukbatanovic.github.io/STS.news.sr/) annotation:
+![STSAnno Screenshot](./doc/Screenshot.png)
+
 ## Saving the annotations
 The output of the program is saved to the corpus file given to the program as input i.e. the input file is overwritten with (partially) annotated data.
 This allows the user to work with only one file throughout the annotation process.
