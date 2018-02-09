@@ -39,7 +39,10 @@ java -jar STSAnno.jar
 ```
 
 ## References
-TBA
+If you wish to use STSAnno in your paper or project, please cite:
+
+**Fine-grained Semantic Textual Similarity for Serbian**, Vuk Batanovic, Miloš Cvetanovic, Boško Nikolic, in Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan (2018).
+
 
 ## Additional Documentation
 All methods contain documentation and comments in English.
