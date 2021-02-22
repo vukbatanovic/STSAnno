@@ -46,7 +46,7 @@ If you wish to use STSAnno in your paper or project, please cite:
 ## Additional Documentation
 All methods contain documentation and comments in English.
 If you have any questions about the program, please review the supplied [javadoc documentation](https://vukbatanovic.github.io/STSAnno/doc/index.html) and the source code.
-If no answer can be found, feel free to contact me at: vuk.batanovic / at / student.etf.bg.ac.rs
+If no answer can be found, feel free to contact me at: vuk.batanovic / at / ic.etf.bg.ac.rs
 
 ## License
 GNU General Public License 3.0 (GNU GPL 3.0)
